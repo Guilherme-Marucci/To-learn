@@ -1,3 +1,7 @@
+import os
+os.rename("open.txt", "open2.txt") #renomeia o arquivo
+
+"""
 def main():
     print("Digite suas frases. Digite 'sair' para terminar e salvar o arquivo.")
     frases = []
@@ -27,3 +31,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
