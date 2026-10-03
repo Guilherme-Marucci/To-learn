@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
     <meta name = "description" content = "prototipo para requisições de compra e manuteções">
-    <title>REQ CLONE</title>
+    <title>Aventura Brinquedos</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
     <!-- adicionar o link rel css e js -->
 
 </head>
 <body>
+    <p><small><center>Consolidar <strong>fortemente</strong> o habito de separar custos pessoais e custos CNPJ!!!</center></small></p>
     <a class="skip-link" href="#content">Pular para o conteúdo </a>
     <!-- Conteúdo principal -->
      <div class ="app-shell">
         <!-- nav autonoma p/ protótipo. substuir pelo menu compartilhado -->
+        <h3> <span>Alterar todos os icones para lucide futuramente</span></h3>
         <aside class="brand" href="#start"> 
             <a class="brand" href=" Cotação Orçamentária de brinquedos">
                 <span class="brand-mark" aria-hidden="true"><span></span></span>
@@ -22,8 +25,8 @@
             <div class="sidebar-label"> Menu rápido</div>
             <nav class="main-nav" aria-label="Acessos raápidos">
                 <a class=" main-nav-link is-active" href=" #inicio"><span class="aria-hiden = true">◫</span>Visão geral</a>
-                <a class="main-nav-link" href="#Promo"><span aria-hidden="true">✉</span> Promoções Especiais</a>
-                <a class="main-nav-link" href="#sobre"><span aria-hidden="true">▦</span> Nossa História</a>
+                <a class="main-nav-link" href="#Promo"><span aria-hidden="true">✉</span> Cadastrar Promo manualmente</a>
+                <a class="main-nav-link" href="#frete"><span aria-hidden="true">▦</span> Alterar cotação frete</a>
             </nav>
             <div class="sidebar-note"><span class="live-dot" aria-hidden="true">Prototipo com dados imprecisos</span></div>
             <div class="sidebar-foot"> Interface conceitual ° sem integração ao bot</div>
@@ -31,7 +34,41 @@
 
         <div class="sidebar-backdrop" id="sidebar-backdrop" hidden></div>
 
-    
+        <main class=" content" id="conteudo">
+            <section class="hero" aria-labelledby="page-title">
+                <div class="hero-copy"><!-- Armazena parte textual da apresentação-->
+                    <div class="eyebrow"><span class="live-dot" aria-hidden="true">Brinquedos destaques! </span></div>
+                    <!--Eyebrow agrupa um pequeno rótulo acima do titulo-->
+                    <h1 id="page-title">Aventura Brinquedos<span>!</span></h1>
+                    <p> limite de cotação para até 3 brinquedos. Para cotações com mais brinquedos ou busca por descontos digitar /atendente para nosso mascote no whatsapp</p>
+                    <p> Definir regra para aplicação do desconto aplicável a um combo ou definir combos já montados </p>
+                    <div class="hero-actions">
+                    <!--Junta os links para que possam ficar lado a lados quebrar linha qnd necessario-->
+                        <a class="primary-link" href="#orcamentos"> Orçamentos não finalizados<span aria-hidden="true">↗</span></a> <!-- ficarão em dash separados ou serão exibidos nos blocos?-->
+                        <a class="subtle-link" href="#dashboard"> Gestão passivos e ativos <span aria-hidden="true">⌲</span></a> <!-- Definir cultura de registro de gastos -->
+                    </div> <!--End of Hero copy-->
+                </div>
+                <div class="hero-visual" aria-hidden="true">
+                <!--Agrupa ilustração do HTML e CSS. Conteúdo ocuto da leitura assistiva e é decorativo-->
+                    <div class="visual-top"><span class="window-dots">● ● ●</span><span>Compras</span> ↗ </div>
+                    <!--É a barra da ilustração com ..., titulo e seta -->
+                    <div class="visual-row"><span class="visual-icon">01</span><span><strong>Brinquedos(?)</strong><small>Filiais e solicitações(?)</small> </span><span clss="visual-count">03</span></div>
+                    <div class="visual-row"><span class="visual-icon">02</span><span><strong>Brinquedos(?)</strong><small>Filiais e solicitações(?)</small> </span><span clss="visual-count">03</span></div>
+                    <div class="visual-row"><span class="visual-icon">03</span><span><strong>Brinquedos(?)</strong><small>Filiais e solicitações(?)</small> </span><span clss="visual-count">02</span></div>
+                    <!-- Cada visual-row reúne um num, nome, descrição e contagem. visual-count separa à direita-->
+                </div>
+            </section>
+            <p class="demo-alert"><strong>Dados de demonstração. </strong> Setores, Situações e vincúlos por WPP. Nesta prévia
+            ilustram a interface. A deficição de "aberta" e dados reais dependem da definição de um banco de dados</p>
+
+            <section class="metrics" aria-label="Resulmo demonstrativo">
+                <div class="metric"><span>Orçamentos na prévia</span><stron id="metric-total">-</stron><small>Registros </small> </div>
+                <div class="metric"><span>Orçamentos na prévia</span><stron id="metric-sector">-</stron><small>Blocos separados por categoria</small> </div><!--Blocos de categoria(Inflavel, alimentar, cama elastica e possiveis novas aquisições) Considerar incluir monitor como categoria vinculada-->
+                <div class="metric"><span>Orçamentos na prévia</span><stron id="metric-wpp">-</stron><small>Vínculos de exemplo </small> </div> <!--metric-wpp no model referência: metric-email-->
+                <div class="metric metric--accent"><span>Orçamentos na prévia</span><stron id="metric-status">-</stron><small> Cores de legenda </small> </div>
+            </section>
+
+        </main>
     
     </div>
     
