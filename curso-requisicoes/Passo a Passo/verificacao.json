@@ -1,0 +1,19 @@
+{
+  "source": "C:\\Users\\PC\\OneDrive - Educacional\\Documentos\\GitHub\\Painel_Requisicao-REQ_NEW\\Painel_Requisicao-REQ_NEW\\REQUISICAO\\prototipo-requisicoes",
+  "files": {
+    "index.html": {
+      "lines": 118,
+      "sha256": "754954d3cc99cdecdc9652099104f5f40a7c9f66d5f1660e30a4b7bcbcfbfe47"
+    },
+    "styles.css": {
+      "lines": 171,
+      "sha256": "2bad53b848511331ed9c23659eb28a67fa078e2accd85baf58ef38a3bf6e3790"
+    },
+    "app.js": {
+      "lines": 209,
+      "sha256": "daaa8bcffae02ccfb64cb05f7b8f927f4a684d7fc47ae45dffade008d97effc2"
+    }
+  },
+  "coverage": "Todos os trechos, em ordem, sem omitir linhas dos arquivos lidos.",
+  "source_edits": false
+}
