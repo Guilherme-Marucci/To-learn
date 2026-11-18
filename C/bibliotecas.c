@@ -17,6 +17,4 @@ int main(void) {
     char destino[50];
     strcpy(destino, origem);
     printf("String original: %s\n", origem);
-    printf("String copiada: %s\n", destino);
-    return 0;
-}
+    printf("String copiada: %s\n", destino)

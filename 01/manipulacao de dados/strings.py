@@ -1,4 +1,5 @@
 import os
+
 print("=" *50)
 print("Manipulação de textos em python")
 print("=" *50)
